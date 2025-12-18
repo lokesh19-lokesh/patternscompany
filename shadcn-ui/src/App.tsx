@@ -27,7 +27,7 @@ import About from './components/About';
 import Job from './components/Careers';
 import Blog from "./components/Blog";
 import Contact from './components/Contact';
-import Team from'./components/team';
+import Team from './components/Team';
 import PrivacyPolicy from './components/ui/PrivacyPolicy';
 import SS from './components/About2';
 
