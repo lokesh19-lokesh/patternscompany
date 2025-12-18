@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:80fb7f19ee6a48528fae0e743353eb5bdf9f71298d82c1acf8104359f480198a
-size 2172
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="69.4266mm" height="27.94mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6942.66 2794"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#70B6E8}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M245.52 33.87l6443.15 0c111.76,0 203.19,91.43 203.19,203.19l0 2302.95c0,111.76 -91.43,203.19 -203.19,203.19l-6443.15 0c-111.76,0 -203.19,-91.43 -203.19,-203.19l0 -2302.95c0,-111.76 91.43,-203.19 203.19,-203.19zm127 106.46l2034.23 0c111.76,0 203.19,91.43 203.19,203.19l0 2077.96c0,111.76 -91.43,203.19 -203.19,203.19l-2034.23 0c-111.76,0 -203.19,-91.43 -203.19,-203.19l0 -2077.96c0,-111.76 91.43,-203.19 203.19,-203.19z"/>
+  <rect class="fil1" x="169.33" y="140.32" width="2440.61" height="2484.34" rx="203.2" ry="203.2"/>
+  <rect class="fil0" x="211.65" y="186.27" width="905.93" height="2396.06" rx="203.2" ry="205.38"/>
+  <path class="fil0" d="M526.15 194.73l227.94 -4.82c-10.84,-4.37 -15.81,-10.05 -17.32,-18.68 -0.69,-3.9 -1.71,-14.54 -0.43,-18.84 2.44,-8.14 8.72,-16.17 17.75,-20.73l-229.16 0c8.47,4.56 33.87,36.77 1.22,63.07z"/>
+  <rect class="fil0" x="211.65" y="186.27" width="905.93" height="2396.06" rx="203.2" ry="205.38"/>
+  <path class="fil0" d="M526.15 2633.13l227.94 -4.82c-10.84,-4.37 -15.81,-10.05 -17.32,-18.68 -0.69,-3.9 -1.71,-14.54 -0.43,-18.84 2.44,-8.14 8.72,-16.17 17.75,-20.73l-229.16 0c8.47,4.56 33.87,36.77 1.22,63.07z"/>
+  <path class="fil0" d="M158.4 1201.55l6.53 227.9c4.29,-10.87 9.94,-15.89 18.55,-17.46 3.9,-0.72 14.53,-1.82 18.84,-0.57 8.16,2.37 16.23,8.59 20.86,17.59l-1.72 -229.15c-4.5,8.5 -36.52,34.14 -63.06,1.69z"/>
+ </g>
+</svg>
