@@ -1,9 +1,0 @@
-{
-  "name": "tpc-website-root",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "npm run dev --prefix shadcn-ui",
-    "build": "npm run build --prefix shadcn-ui",
-    "start:backend": "node backend/server.js"
-  }
-}
