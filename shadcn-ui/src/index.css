@@ -176,11 +176,11 @@ a{
             .exp {
                 font-size: 10px !important;
             }
-.hero-content h3 {
-    font-size: clamp(2rem, 5vw, 1rem) !important;
+.hero-section h3 {
+    font-size: 1rem !important;
     font-weight: 700 !important;
     line-height: 1.2;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
 
