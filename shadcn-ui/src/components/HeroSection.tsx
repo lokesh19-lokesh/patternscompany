@@ -118,101 +118,61 @@ import h1 from '../large_view.mp4';
 
 export default function HeroSection() {
   return (
-    <section id="herosection" className="relative min-h-screen overflow-hidden pt-20">
+    <section className="container-fluid scroll-section" id="hero">
+        <div className="row">
+            <div className="col-lg-4 hero-content text-center my-3 order-1 order-lg-0 d-none d-lg-block">
+                <p className="fs-6 font-weight-bold">5+ YEARS OF EXPERIENCE</p>
+                <h3 className="fs-2">
+                    WE <br />
+                    CREATE<br />
+                    FUTURE <br />
+                    WEBSITES
+                </h3>
+                <div className="d-flex justify-content-center  rounded">
+                    <div className="flex-shrink-0 btn-square  rounded-circle hero-phone">
+                        <i className="fa fa-phone text-white"></i>
+                    </div>
+                    <div className="ms-3">
+                        <h4 className="text-dark">Call Us</h4>
+                        <a className="h5" href="tel:+919392557785" target="_blank">+91-9392557785</a>
+                    </div>
+                </div>
+            </div>
+            <div className="col-12 col-lg-8 video-section" >
+                <div className="video">
+                                    <video preload="metadata" id="myCanvas" className="video-player" autoPlay muted loop playsInline>
+                                        <source src={h1} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
 
-      {/* ✅ Desktop View (>=1024px) */}
-      <div className="hidden lg:flex items-center min-h-screen bg-white text-black">
-        
-        {/* Left Side Text */}
-        <div className="relative z-10 w-1/2 px-10 flex flex-col justify-center items-start space-y-6">
-          <p className="text-green-600 text-lg font-semibold">5+ YEARS OF EXPERIENCE</p>
-          <h1 className="font-bold text-6xl leading-tight">
-            <div>WE</div>
-            <div>CREATE</div>
-            <div>FUTURE</div>
-            <div>WEBSITES</div>
-          </h1>
+                    <div className="hero-section position-absolute d-block d-lg-none">
+                        <p className="exp font-weight-bold">5+ YEARS OF <br /> EXPERIENCE</p>
+                        <h3 className="future-heading">
+                            WE <br />
+                            CREATE<br />
+                            FUTURE <br />
+                            WEBSITES
+                        </h3>
+                        <div className="d-flex flex-column justify-content-start mt-3 mb-3 rounded">
+                            <div className="d-flex justify-content-start align-items-center">
+                                <div className="flex-shrink-0 btn-square rounded-circle hero-phone"
+                                   >
+                                    <i className="fa fa-phone text-white"></i>
+                                   
+                                </div>
+                                <h4 className="call">Call Us</h4>
+                            </div>
+                            <div className="ms-1">
 
-          <div className="flex flex-col sm:flex-row gap-4 mt-6">
-            <Link to="/services">
-              <Button
-                size="lg"
-                className="bg-green-500 hover:bg-green-600 text-lg px-10 py-4"
-              >
-                Explore Our Services
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-            </Link>
+                                <a className="number" href="tel:+919392557785" target="_blank">+91-9392557785</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <Link to="/contact">
-              <Button
-                variant="outline"
-                size="lg"
-                className="border border-green-500 text-green-600 hover:bg-green-500 hover:text-white text-lg px-8 py-4"
-              >
-                Get In Touch
-              </Button>
-            </Link>
-          </div>
+             
+            </div>
         </div>
-
-        {/* Right Side Video */}
-        <div className="absolute top-0 right-0 w-1/2 h-full overflow-hidden clip-half-right">
-          <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-            <source src={h1} type="video/mp4" />
-          </video>
-        </div>
-      </div>
-
-
-      {/* ✅ Tablet + Mobile View (<1024px) */}
-      <div className="lg:hidden relative flex items-center justify-center min-h-screen text-center text-white">
-        {/* Background video */}
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover z-0">
-          <source src={h1} type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-black/50 z-0"></div>
-
-        {/* Foreground text */}
-        <div className="relative z-10 px-6 pt-20">
-          <p className="text-green-400 text-sm md:text-base font-semibold">5+ YEARS OF EXPERIENCE</p>
-          <h1 className="font-bold text-3xl md:text-5xl leading-tight mt-2">
-            <div>WE</div>
-            <div>CREATE</div>
-            <div>FUTURE</div>
-            <div>WEBSITES</div>
-          </h1>
-
-          <div className="flex flex-col gap-4 mt-6">
-            <Link to="/services">
-              <Button
-                size="lg"
-                className="bg-green-500 hover:bg-green-600 text-base md:text-lg px-8 py-3 md:px-10 md:py-4"
-              >
-                Explore Our Services
-                <ArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5" />
-              </Button>
-            </Link>
-
-            <Link to="/contact">
-              <Button
-                variant="outline"
-                size="lg"
-                className="border border-green-400 text-green-400 hover:bg-green-500 hover:text-white text-base md:text-lg px-6 py-3 md:px-8 md:py-4"
-              >
-                Get In Touch
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Half-Circle Shape CSS */}
-      <style>{`
-        .clip-half-right {
-          clip-path: ellipse(100% 100% at right center);
-        }
-      `}</style>
     </section>
   );
 }
