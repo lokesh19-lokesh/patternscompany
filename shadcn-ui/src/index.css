@@ -127,12 +127,36 @@ a{
         }
 
         .hero-content h3 {
-            font-size: 3rem !important;
-            font-weight: 600 !important;
-            line-height: 80px;
-            letter-spacing: 5px;
-            font-family: 'heebo', sans-serif;
-        }
+    font-size: clamp(4rem, 5vw, 3.5rem) !important;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+
+    /* Gradient text */
+    background: linear-gradient(90deg, #7ed857, #4fc3f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Soft glow */
+    text-shadow: 0 8px 25px rgba(126, 216, 87, 0.25);
+
+    /* Smooth entrance */
+    animation: fadeSlide 1.2s ease-out forwards;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
         @media (max-width:992px) {
             .video {
@@ -144,20 +168,33 @@ a{
                 padding-top: 15px !important;
             }
 
-            .hero-content h3 {
+            /* .hero-content h3 {
                 font-size: 15px !important;
                 line-height: 20px;
-            }
+            } */
 
             .exp {
                 font-size: 10px !important;
             }
+.hero-content h3 {
+    font-size: clamp(2rem, 5vw, 1rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
 
-            .future-heading {
-                font-size: 15px;
-                color: #000000;
-            }
+    /* Gradient text */
+    background: linear-gradient(90deg, #7ed857, #4fc3f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+    /* Soft glow */
+    text-shadow: 0 8px 25px rgba(126, 216, 87, 0.25);
+
+    /* Smooth entrance */
+    animation: fadeSlide 1.2s ease-out forwards;
+}
             .number {
                 font-size: 14px;
                 color: #000000;
